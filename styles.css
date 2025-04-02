@@ -1,0 +1,114 @@
+body {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+
+    flex: 1;
+    margin: 0 500px;
+}
+
+.first {
+    height: 25rem;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Nav buttons */
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+button {
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    background-color: orange;
+    cursor: pointer;
+}
+
+.go-to-first {
+    width: 100%;
+    justify-content: center;
+}
+
+.go-to {
+    padding: 0 2rem;
+}
+
+/* for all paragraph texts */
+p,
+h3 {
+    text-align: justify;
+    font-size: 1.2rem;
+    line-height: 2rem;
+}
+
+/* for all chants */
+
+.chants {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 0;
+}
+
+.leader,
+.responder {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    /* border: 1px solid red; */
+    margin: 0;
+}
+
+.chant-title,
+.response,
+.verse {
+    margin-bottom: 0;
+}
+
+/* Styling for hymns section */
+.hymns {
+    display: flex;
+    gap: 2rem;
+}
+
+.english,
+.latin {
+    text-align: left;
+}
+
+/* Styling for christ's speaking */
+.christ,
+.word-of-christ,
+.reading-title,
+.station {
+    color: red;
+
+}
+
+/* Styling for Man responds and all titles in blue */
+.man,
+.station-title {
+    color: blue;
+}
+
+footer {
+    margin-top: 3rem;
+    padding: 1rem;
+    border-top: 0.5px solid grey;
+    text-align: center;
+    color: grey;
+}
+
+@media (min-width: 389px) and (max-width: 600px) {
+    body {
+        margin: 0 0.5rem;
+    }
+}
