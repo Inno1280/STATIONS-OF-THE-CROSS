@@ -7,7 +7,8 @@ body {
     margin: 0 500px;
 }
 
-.first {
+/* The images in each station's page */
+.stations-image {
     height: 25rem;
 }
 
