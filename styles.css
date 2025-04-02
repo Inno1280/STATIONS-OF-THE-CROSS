@@ -112,7 +112,7 @@ footer {
     color: grey;
 }
 
-@media (min-width: 389px) and (max-width: 600px) {
+@media (max-width: 1080px) {
     body {
         margin: 0 0.5rem;
     }
