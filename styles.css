@@ -27,6 +27,7 @@ body {
 button {
     height: 3rem;
     width: 100%;
+    padding: 0 2rem;
     border-radius: 1rem;
     background-color: orange;
     cursor: pointer;
@@ -38,7 +39,11 @@ button {
 }
 
 .go-to {
-    padding: 0 2rem;
+    padding: 0 1rem;
+}
+
+.first-station {
+    background-color: green;
 }
 
 /* for all paragraph texts */
