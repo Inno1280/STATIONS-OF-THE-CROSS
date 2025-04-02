@@ -23,6 +23,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 100%;
+    margin-top: 2rem;
 }
 
 button {
@@ -94,7 +95,8 @@ h3 {
 .christ,
 .word-of-christ,
 .reading-title,
-.station {
+.station,
+span {
     color: red;
 
 }
@@ -105,12 +107,46 @@ h3 {
     color: blue;
 }
 
+/* Texts that are used for emphasis inside parenthesis */
+.emphasis-text {
+    font-style: italic;
+}
+
+
 footer {
     margin-top: 3rem;
     padding: 1rem;
     border-top: 0.5px solid grey;
     text-align: center;
     color: grey;
+}
+
+/* Page navigation buttons */
+
+.links-container {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 1rem;
+}
+
+.each-stations {
+    padding: 0;
+    border-radius: 50%;
+    font-size: 1rem;
+    background-color: white;
+    border: 0.5px solid grey;
+    cursor: pointer;
+}
+
+.each-stations:hover {
+    background-color: beige;
+}
+
+/* Styling for the image */
+.conclusion-image {
+    height: 48rem;
 }
 
 @media (max-width: 1080px) {
